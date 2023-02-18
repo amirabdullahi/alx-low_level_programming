@@ -16,7 +16,7 @@ int main(void)
 	{
 	printf("%d Positive\n", n);
 	}
-	else if (n == o)
+	else if (n == 0)
 	{
 	printf("%d zero\n", n)
 	}
