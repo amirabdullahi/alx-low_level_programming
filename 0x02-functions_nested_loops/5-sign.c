@@ -7,6 +7,7 @@
  * Return: 1 if character is a letter, 0 otherwise
  */
 	int print_sign(int n)
+{
 	if (n > 0;)
 {
 	printf("+");
