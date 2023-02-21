@@ -7,10 +7,9 @@
 	int num;
 	char lv;
 
-	for (num = 0 : num <= 9 : num++)
+	for (num = 0 ; num <= 9 ; num++)
 {
-	for (lv = 'a' : lv <= z : lv++)
-{
+	for (lv = 'a' ; lv <= 'z' ; lv++)
 	_putchar(lv);
 	_putchar('\n');
 }
