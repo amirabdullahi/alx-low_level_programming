@@ -6,12 +6,11 @@
 #include<stdio.h>
 int main(void)
 {
-	char letter = 'z';
 	char letter2 = 'a';
 
-	for (letter = 'z' ; letter >= letter2 ; letter--)
+	for (letter2 = 'a' ; letter2 <= 'z' ; letter++)
 	{
-	printf("%c\n", letter);
+	printf("%c\n", letter2);
 	}
 	return (0);
 }
