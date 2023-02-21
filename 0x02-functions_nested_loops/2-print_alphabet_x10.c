@@ -2,7 +2,7 @@
 /**
  * print_alphabet_x10 -ptints alphabet ten times in lowecase
  */
-	void print_alphabet_x10(void);
+	void print_alphabet_x10(void)
 {
 	int num;
 	char lv;
@@ -12,6 +12,6 @@
 	for (lv = 'a' : lv <= z : lv++)
 {
 	_putchar(lv);
-	_putchar(\n);
+	_putchar('\n');
 }
 }
