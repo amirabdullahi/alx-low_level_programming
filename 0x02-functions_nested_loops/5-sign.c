@@ -10,17 +10,17 @@
 {
 	if (n > 0)
 {
-	printf("+ %d", n);
+	putchar('+');
 	return (1);
 }
 	else if (n == 0)
 {
-	printf("0 %d", n);
+	putchar('0');
 	return (0);
 }
 	else
 {
-	printf("- %d", n)
+	putchar('-')
 	return (-1);
 }
 }
