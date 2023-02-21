@@ -3,6 +3,7 @@
  * print_alphabet_x10 -ptints alphabet ten times in lowecase
  */
 	void print_alphabet_x10(void);
+{
 	int num;
 	char lv;
 
