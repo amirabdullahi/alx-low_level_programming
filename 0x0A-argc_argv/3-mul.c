@@ -15,7 +15,8 @@ int main(int argc, char *argv[])
 		printf("Error");
 		return (1);
 	}
-	mult = atoi(argv[1] * atoi(argv[2]);
+	mult = atoi(argv[1]) * atoi(argv[2]);
+
 			printf("%d\n", mult);
 			return (0);
 }
