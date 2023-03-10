@@ -6,8 +6,8 @@
  * @argv: array count
  * Return: 0
  */
-int main(int argc, char *argc[])
+int main(int argc, char *argv[])
 {
 	printf("%d\n", argc - 1);
-	return (o);
+	return (0);
 }
