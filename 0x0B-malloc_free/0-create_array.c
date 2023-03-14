@@ -28,4 +28,5 @@ char *create_array(unsigned int size, char c)
 	a++;
 	}
 	*(ptr + a) = '\0';
+	return (ptr);
 }
